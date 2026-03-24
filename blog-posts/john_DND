@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creature of Clearwater - Blog Post: About John</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+     <!-- Header/Navigation -->
+     <header>
+        <a href="../index.html"class="logo">Home</a>
+        <nav>
+            <ul>
+                <li><a href="about-john.html">Hobbies</a></li>
+                <li><a href="#">D&D</a></li>
+                <li><a href="#">Comic Books</a></li>
+                <li><a href="#">Collecting</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Animals</a></li>
+            </ul>
+        </nav>
+     </header>
+<main>
+ <!-- Page title -->
+         <section class="page-title">
+            <h1>Rolling with a Mentor</h1>
+            <h2>Lessons That Applies Across Decades</h2>
+        </section>
+        <!-- feature image -->
+         <section class="feature-image">
+            <img src="../images/john_dnd.jpg" alt="Playing DND with John">
+         </section>
+         
+<!-- 2 Column Text section -->
+<section class="grid-2 article">
+    <div>
+                <h3>Before I Met John</h3>
+                <p>Playing Dungeons & Dragons with John over the years is entertaining, intriguing, engaging, immersive, stimulating and even spellbinding. My impression with John’s DND campaign (setting) of Lose Wyrld at first was confusing and unorthodox at times, yet the most rewarding and fulfilling after learning and adapting to his playstyle. Adjusting to a new playstyle can be irritating and annoying at 1st but with time, patience and communication we were able to build a relationship not only as fellow DND players but as good friends till this day.</p>
+            </div>
+            <div>
+                <h3>A Fresh Start in Florida</h3>
+                <p>Years went by, and eventually I moved to Florida for a fresh start. I missed DND, missed the insane
+                    adventures with friends, and once again found myself bouncing between groups that never quite
+                    clicked. That pattern finally changed the day I walked into M&M Games and was told I'd be playing
+                    under a DM with a "rather unconventional style." Little did I know how true that was — or how much
+                    that day would impact my life. Because that DM was John C. Lewis, and our friendship began in April
+                    2021.</p>
+            </div>
+</section
+
+
+
+
+
+<!-- <div><p>Playing Dungeons & Dragons with John over the years is entertaining, intriguing, engaging, immersive, stimulating and even spellbinding. My impression with John’s DND campaign (setting) of Lose Wyrld at first was confusing and unorthodox at times, yet the most rewarding and fulfilling after learning and adapting to his playstyle. Adjusting to a new playstyle can be irritating and annoying at 1st but with time, patience and communication we were able to build a relationship not only as fellow DND players but as good friends till this day. </p></div>
+
+<div><p>Over the years we had players come and go due to private life matters (which is common) and despite the many different players, John’s view point on the current DND cultural landscape hasn’t changed, that players are much different today than they were 40 years ago (he’s been playing since the 80’s). They’re entitled, argumentative and even spoiled during game sessions, it sounds ridiculous and you know what he’s right. Even when I started playing DND in 2015 I noticed my fellow party members (players) would argue with Dillon (our DM and friend) over his rulings, if their characters were negatively impacted. For those who don’t know, in DND you roll dice to determine whether or not your character succeeds or fails at their desired course of action. If they don’t roll high enough the PC (player character) does not accomplish the desired outcome.</p></div>
+
+<div>
+    <p>A substantial number of players take this as a personal slight against them and their PC’s, which is far from the truth. I’ve learned from John that just because you fail a check (not rolling high enough), doesn’t mean that avenue is permanently closed off to you. This is where being a player, you have the opportunity to think creatively and choose another method of accomplishing your character’s goals. Unfortunately as John puts it this is, “Video Game Mentality” and these 2 different playstyles don’t mesh and cause conflicts at the table in the form of arguing with the DM and complaining about their rules. This causes disruption of the game which ruins the fun of everyone else at the table, now players are less likely to come back and the campaign could possibly end. </p>
+</div>
+
+<div>
+   <p>John always advises that if a player has a question, complaint or inquiry about a DM’s ruling the player should ask AFTER the session regarding the concern. This helps build trust between players and their DM that can improve the experience at the table. John has been playing for over 40 years and the game has changed multiple times throughout the decades, his favorite edition (version) is Advanced Dungeons & Dragons second edition but the vast majority of players play the current version which is Fifth Edition (5e) and his LEAST favorite edition. Regretfully this causes confusion at John’s table as he is rather stubborn in his ways, we’ve had arguments in the past but in the player’s handbook the 1st rule is the DM has the final say.</p> 
+</div>
+
+<div>
+    <p>Although this might seem “unfair”, another way to look at this is to think that playing DND is the same as running a company. The DM is like the CEO who owns 51% of the company and the players are the employees who own 49% of the company, the players can collectively raise an issue and the DM can take it into consideration. At the end of the day there’s no game without the DM and players.  </p>
+</div> -->
+
+
+</main>
+</body>
+</html>
