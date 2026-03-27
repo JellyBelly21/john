@@ -228,3 +228,24 @@ body {
         flex-direction: column;
     }
 }
+
+/* Tag & Footer Styles */
+.tag {
+    background: #f0f0f0;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+footer {
+    margin-top: 80px;
+    padding: 40px 0;
+    text-align: center;
+    border-top: 2px solid var(--accent, #d4af37);
+}
+
+footer p {
+    margin-bottom: 10px;
+}
