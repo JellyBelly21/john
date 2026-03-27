@@ -169,6 +169,14 @@ body {
     padding-top: 20px;
 }
 
+/* Feature Image Styling */
+.feature-image img {
+    width: 100%;
+    max-height: 800px;
+    object-fit: contain;
+    border-radius: 12px;
+}
+
 /* Post Preview Cards */
 .flex-row {
     background: white;
@@ -293,8 +301,8 @@ main {
 .grid-2 img,
 .grid-3 img {
     width: 100%;
-    max-height: 400px;
-    /* Increased for better contain visibility */
+    max-height: 600px;
+    /* Increased for better visibility */
     object-fit: contain;
     /* Ensures no part of the image is cut off */
     background-color: #f9f9f9;
@@ -302,6 +310,7 @@ main {
     border-radius: 12px;
     transition: transform 0.3s ease;
 }
+
 
 
 .grid-2 img:hover,
