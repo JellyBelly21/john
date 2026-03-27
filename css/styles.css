@@ -144,6 +144,58 @@ justify-content: center;
     margin-bottom: 60px;
 }
 
+/* Brand Colors & Typography */
+:root {
+    --accent: #d4af37; /* Gold for his "Veteran" status */
+    --text-dark: #1a1a1a;
+    --border-soft: #eaeaea;
+}
+
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    color: var(--text-dark);
+    background-color: #fafafa;
+}
+
+.brand-statement {
+    max-width: 600px;
+    margin: 20px auto;
+    font-style: italic;
+    color: #666;
+    border-top: 1px solid var(--border-soft);
+    padding-top: 20px;
+}
+
+/* Post Preview Cards */
+.flex-row {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.flex-row:hover {
+    transform: translateY(-5px);
+}
+
+.flex-col h3 {
+    font-size: 1.5rem;
+    color: var(--text-dark);
+    border-bottom: 2px solid var(--accent);
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.flex-col p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+
+
 
 
 @media (max-width: 768px) {
