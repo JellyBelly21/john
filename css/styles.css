@@ -301,16 +301,25 @@ main {
     /* Increased for better visibility */
     object-fit: contain;
     /* Ensures no part of the image is cut off */
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
     /* Subtle background for aspect ratio gaps */
     border-radius: 12px;
     transition: transform 0.3s ease;
 }
-
-
 
 .grid-2 img:hover,
 .grid-3 img:hover {
     transform: scale(1.02);
 }
 
+.media-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap; /* makes it responsive on small screens */
+}
+
+.media-row audio {
+    width: 300px;
+}
