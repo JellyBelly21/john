@@ -207,15 +207,24 @@ body {
 
 
 @media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
 
-    .flex-row,
-    header {
+    main {
+        padding: 15px;
+    }
+
+    .flex-row {
+        margin: 20px 0;
+        padding: 15px;
         flex-direction: column;
     }
 
     header {
+        flex-direction: column;
         text-align: center;
-        gap: 40px;
+        gap: 20px;
     }
 
     .flex-row.reverse {
@@ -232,7 +241,13 @@ body {
         grid-column: span 1;
     }
 
-
+    /* Override inline heights on mobile to let images scale proportionally */
+    img {
+        height: auto !important;
+        max-height: 450px !important;
+        width: 100% !important;
+        object-fit: contain !important;
+    }
 }
 
 @media (max-width: 476px) {
