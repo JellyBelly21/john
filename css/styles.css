@@ -20,6 +20,25 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
+    border-radius: 12px;
+}
+
+/* Image Sizing Classes */
+.img-hero {
+    max-height: 700px;
+    width: 100%;
+}
+
+.img-article {
+    max-height: 600px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.img-small {
+    max-height: 300px;
+    width: auto;
+    margin: 0 auto;
 }
 
 header {
@@ -84,10 +103,6 @@ h3 {
 
 .flex-col {
     flex: 1;
-}
-
-.flex-col img {
-    border-radius: 7px;
 }
 
 .flex-image-strip {
@@ -167,13 +182,7 @@ body {
     padding-top: 20px;
 }
 
-/* Feature Image Styling */
-.feature-image img {
-    width: 100%;
-    max-height: 800px;
-    object-fit: contain;
-    border-radius: 12px;
-}
+/* Feature Image Styling - now handled by .img-hero class */
 
 /* Post Preview Cards */
 .flex-row {
@@ -342,10 +351,11 @@ main {
 /* Lightbox Styles */
 .lightbox-target {
     cursor: zoom-in;
-    transition: opacity 0.2s ease;
+    transition: transform 0.3s ease, opacity 0.2s ease;
 }
 
 .lightbox-target:hover {
+    transform: scale(1.02);
     opacity: 0.95;
 }
 
